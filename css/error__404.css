@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--negro);
+}
+
+.container .container__404{
+    background-color: var(--blanco);
+    padding: 8rem 4rem;
+    border-radius: 15px;
+}
+
+.container .container__404 h1{
+    font-family: var(--martel__fuente__subtitulo);
+    font-weight: bold;
+    font-size: var(--big__size__text);
+}
+
+.container .container__404 p{
+    font-family: var(--montserrat__fuente__titulo);
+    font-size: var(--medium__size__text);
+    margin-bottom: 1.5rem;
+}
+
+.container .container__404 a{
+    display: flex;
+    background-color: var(--negro);
+    width: 100%;
+    color: var(--blanco);
+    padding: 1rem 0;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}

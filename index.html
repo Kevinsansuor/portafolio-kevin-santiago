@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Portafolio Kevin">
+    <meta property="og:site_name" content="Kevin´s Portfolio">
+    <meta property="og:url" content="">
+    <meta property="og:description"
+    content="Kevin Santiago es un programador y diseñador front-end.
+    Ingeniero de Sistemas en formación desde el año 2020 en la Universidad de Ciencias y Desarrollo UNICIENCIA, enfocado en lenguajes como JAVA, PHP, HTML, CSS, JavaScript y estudiante técnico en Comercio Electrónico en FITEC.">
+    <meta name="description" content="Kevin Santiago es un programador y diseñador front-end.
+    Ingeniero de Sistemas en formación desde el año 2020 en la Universidad de Ciencias y Desarrollo UNICIENCIA, enfocado en lenguajes como JAVA, PHP, HTML, CSS, JavaScript y estudiante técnico en Comercio Electrónico en FITEC.">
+    <meta property="og:type" content="profile">
+    <meta property="og:image" content="">
+    <meta http-equiv=“X-UA-Compatible” content=“ie=edge”>
+
+    <title>Portafolio Kevin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/body__diseño__default.css">
+    <link rel="stylesheet" href="css/navegacion.css">
+    <link rel="stylesheet" href="css/landing__page.css">
+    <link rel="stylesheet" href="css/sobre__mi__diseño.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/habilidades__diseño.css">
+    <link rel="stylesheet" href="css/hobbies__diseño.css">
+    <link rel="stylesheet" href="css/formacion__diseño.css">
+    <link rel="stylesheet" href="css/proyectos__diseño.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    
+</head>
+<body>
+    
+
+    <!--Navegación-->
+        <nav>
+            <div class="logo">
+                <a href="index.html">Kevin <br> <span class="negrita">Santiago</span></a>
+            </div>
+
+            <input id="nav__toggle" type="checkbox">
+
+            <ul class="links">
+                
+                
+                <li><a href="#sobre__mi" id="item__1">Sobre mí</a></li>
+                <li><a href="#habilidades" id="item__2">Habilidades</a></li>
+                <li><a href="#formacion" id="item__3">Formación</a></li>
+                <li><a href="#proyectos" id="item__4">Proyectos</a></li>
+                <li><a href="#contacto" id="item__5">Contacto</a></li>
+            </ul>
+
+            <label for="nav__toggle" class="icon__burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+
+        </nav>
+
+        <!--Botón volver al inicio-->
+        <button onclick="topFunction()" id="btn__top" title="Volver al inicio"><i class="fa-regular fa-circle-up"></i></button>
+
+        <!--Banner Land Page-->
+        <div class="container landing__page">
+            <div class="presentacion">
+                <h1 class="p__1">
+                    { Hola un gusto, soy
+                </h1>
+
+                <h1 class="p__2">
+                    <i class="fa-solid fa-chevron-left"></i>Kevin Santiago<i class="fa-solid fa-chevron-right"></i>
+                </h1>
+
+                <h2 class="p__3">
+                    Desarrollador web, Junior <span class="animacion">|</span> }
+                </h2>
+
+                
+
+                <p class="descripcion">
+                    Futuro Ingeniero de Sistemas, desarrollador Front-End basado en CSS, HTML y JavaScript, estuadiante actual del proyecto Oracle ONE en Alura Latam!
+                </p>
+
+
+                <div class="socials">
+                    <a href="https://github.com/Kevinsansuor" target="_blank" title="Ir a GitHub">GitHub <i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    <a href="https://linkedin.com/in/kevin-suarez-o" target="_blank" title="Ir a Linkedin">Linkedin <i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    <a href="https://www.instagram.com/kevinsan_tiago/" target="_blank" title="Ir a Instagram">Instagram <i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    <a href="Hoja de vida/Kevin Santiago Suarez Borrador Curriculum (1).pdf" target="_blank" download="Kevin Santiago Suarez Borrador Curriculum (1).pdf" title="Descargar Hoja de vida">Hvd <i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+
+            </div>
+
+            
+
+            <div class="bajame__esta__xd">
+                <i class="fa-solid fa-arrow-pointer"></i>
+            </div>
+
+            <div class="bajame__esta__xd__movil">
+                <i class="fa-regular fa-hand-pointer"></i>
+            </div>
+
+        </div>
+
+        <br><br><br>
+
+        <!--Sobre mi-->
+        <div class="container" id="sobre__mi">
+            <div class="header">
+                <h1>Un poco de Kevin,</h1>
+                <h2>Una pequeña descripción de quien soy, lo que hago y lo que quiero hacer</h2>
+            </div>
+
+            <br>
+
+            <div class="panel">
+                <div class="accordion">
+                    <input type="radio" name="select" class="accordion-select" checked />
+                    <div class="accordion-title"><span>Quien soy</span></div>
+                    <div class="accordion-content">Hola 🤙, mi nombre es Kevin. Soy programador y diseñador front-end.<br><br> Ingeniero
+                        de Sistemas en formación desde el año 2020 en la Universidad de Ciencias y Desarrollo UNICIENCIA, enfocado en
+                        lenguajes como JAVA, PHP, HTML, CSS, JavaScript y estudiante técnico en Comercio Electrónico en FITEC.<br>
+                        Actualmente resido en la ciudad de Bucaramanga en Santander Colombia, me considero un estudioso de la vida y del
+                        universo. Mi misión es ser un participante activo en el mundo que me rodea: buscar el
+                        conocimiento, seguir la intuición y explorar. <br><br>
+                        También soy una persona a la que le interesan todo tipo de cosas: los animales, la música, la naturaleza,
+                        descubrir nuevas
+                        culturas, la cocina y mucho más.</div>
+                    <input type="radio" name="select" class="accordion-select" />
+                    <div class="accordion-title"><span>Mis espectativas</span></div>
+                    <div class="accordion-content">En un futuro no muy lejano espero verme como un ingeniero capacitado, con habilidades
+                        en el Full Stack Web Developer ya
+                        sea trabajando para una empresa que aprecie mi trabajo o creando mi propio emprendimiento de servicio de páginas
+                        web. <br><br> Soy un programador autodidacta con un profundo interés en la informática. Quiero ser capaz de
+                        crear cosas que faciliten
+                        la vida de las personas.</div>
+                </div>
+            </div>
+
+            <br>
+
+        </div>
+
+        
+
+
+        <!--Habilidades-->
+        <div class="container" id="habilidades">
+
+                    <div class="header">
+                        <h1>Habilidades,</h1>
+                        <h2>Lenguajes y software que suelo usar en mis proyectos </h2>
+                    </div>
+        
+                    <br><br>
+
+                <div class="paneles__habilidades">
+                        <div class="card" id="html">
+                            <i class="fa-brands fa-html5"></i>
+                            <h2>HTML 5</h2>
+                        </div>
+                        <div class="card" id="css3">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <h2>CSS3</h2>
+                        </div>
+                        <div class="card" id="js">
+                            <i class="fa-brands fa-js"></i>
+                            <h2>JavaScript</h2>
+                        </div>
+                        <div class="card" id="php">
+                            <i class="fa-brands fa-php"></i>
+                            <h2>PHP</h2>
+                        </div>
+                        <div class="card" id="java">
+                            <i class="fa-brands fa-java"></i>
+                            <h2>JAVA</h2>
+                        </div>
+                        <div class="card" id="sql">
+                            <i class="fa-solid fa-database"></i>
+                            <h2>MySql</h2>
+                        </div>
+                        <div class="card" id="boostrap">
+                            <i class="fa-brands fa-bootstrap"></i>
+                            <h2>Boostrap</h2>
+                        </div>
+                        <div class="card" id="figma">
+                            <i class="fa-brands fa-figma"></i>
+                            <h2>Figma</h2>
+                        </div>
+                </div>
+
+
+        </div>
+
+        
+
+        <!--Formación-->
+
+        <div class="container" id="formacion">
+
+                <div class="header">
+                    <h1>Formación profesional,</h1>
+                    <h2>La trayectoría de mis estudios hasta el momento</h2>
+                </div>
+        
+                <br><br>
+
+                <div class="estudios">
+                    
+                    <div class="paneles__formacion">
+                        
+                        <div class="imagen">
+                            <img src="/logos/uniciencia__logo.avif" width="250px" alt="Logo de uniciencia">
+                        </div>
+
+                        <div class="titulo">
+                            <h1>INGENIERÍA DE SISTEMAS</h1>
+                        </div>
+                        
+                        <div class="institucion">
+                            <h2>Universidad de ciencia y desarrollo Uniciencia</h2>
+                        </div>
+                        
+                        <div class="fecha">
+                            Inicio: Enero 2020 - En curso
+                        </div>
+
+                    </div>
+                    
+                    <div class="paneles__formacion">
+                    
+                        <div class="imagen">
+                            <img src="/logos/fitec__logo.svg" width="250px" alt="Logo de fitec">
+                        </div>
+                    
+                        <div class="titulo">
+                            <h1>TÉCNICA EN COMERCIO ELECTRÓNICO</h1>
+                        </div>
+                        
+                        <div class="institucion">
+                            <h2>Tecnológica FITEC, instituto de educación superior</h2>
+                        </div>
+
+                        <div class="fecha">
+                            Inicio: Agosto 2022 - En curso
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="paneles__formacion">
+
+                                            
+                        <div class="imagen">
+                            <img src="/logos/alura__oracle__logo.avif" width="250px" alt="Logo de Oracle + Alura">
+                        </div>
+                    
+                        <div class="titulo">
+                            <h1>DESARROLLO WEB FRONT-END</h1>
+                        </div>
+                        
+                        
+                        <div class="institucion">
+                            <h2>Alura Latam + Oracle One</h2>
+                        </div>
+
+                        <div class="fecha">
+                            Inicio: Agosto 2022 - En curso
+                        </div>
+
+                    </div>
+                
+                </div>
+
+        </div>
+
+        <br><br>
+
+        <div class="container" id="formacion">
+        
+            <div class="header">
+                <h1>Certificaciones,</h1>
+                <h2>Cursos y certificados que he logrado terminar</h2>
+            </div>
+        
+            <br><br>
+        
+            <div class="estudios">
+        
+                <div class="paneles__formacion">
+        
+                    <div class="imagen">
+                        <img src="/logos/oracle__nexteducatio__logo.avif" width="250px" alt="Logo de uniciencia">
+                    </div>
+        
+                    <div class="titulo">
+                        <h1>PRINCIPIANTE EN PROGRAMACIÓN</h1>
+                    </div>
+        
+                    <div class="institucion">
+                        <h2>Alura + ONE Oracle Next Education</h2>
+                    </div>
+        
+                    <div class="fecha">
+                        Finalizado: 20 de septiembre de 2022
+                    </div>
+
+                    <div class="link">
+                        <a href="https://app.aluracursos.com/degree/certificate/2496a017-fcd0-4f21-a952-962373648004" target="_blank" title="Ir a Alura Latam">Ver certificado</a>
+                    </div>
+        
+                </div>
+        
+                <div class="paneles__formacion">
+        
+                    <div class="imagen">
+                        <img src="/logos/google__activate.avif" width="250px" alt="Logo de fitec">
+                    </div>
+        
+                    <div class="titulo">
+                        <h1>INTRODUCCIÓN AL DESARROLLO WEB</h1>
+                    </div>
+        
+                    <div class="institucion">
+                        <h2>Google Activate : 5PA 58U JC5</h2>
+                    </div>
+        
+                    <div class="fecha">
+                        Finalizado: 31 de septiembre de 2022
+                    </div>
+
+                    <div class="link">
+                        <a href="https://learndigital.withgoogle.com/activate/validate-certificate-code" target="_blank" title="Código : 5PA 58U JC5">Ver certificado</a>
+                    </div>
+        
+                </div>
+        
+                <div class="paneles__formacion">
+        
+        
+                    <div class="imagen">
+                        <img src="/logos/EF__SET__LOGO.avif" width="250px" alt="Logo de Oracle + Alura">
+                    </div>
+        
+                    <div class="titulo">
+                        <h1>EF STANDARD ENGILSH TEST</h1>
+                    </div>
+        
+        
+                    <div class="institucion">
+                        <h2>EF Standard English Test (EF SET)</h2>
+                    </div>
+        
+                    <div class="fecha">
+                        Finalizado: 09 de marzo de 2022
+                    </div>
+
+                    <div class="link">
+                        <a href="https://www.efset.org/cert/oF3Dsi" target="_blank" title="Ir a EF SET">Ver certificado</a>
+                    </div>
+        
+                </div>
+        
+            </div>
+        
+        </div>
+
+        <div class="container certificados" id="formacion">
+        
+            <div class="estudios">
+        
+                <div class="paneles__formacion">
+        
+                    <div class="imagen">
+                        <img src="/logos/domestika__logo.avif" width="250px" alt="Logo Domestika">
+                    </div>
+        
+                    <div class="titulo">
+                        <h1>CREACIÓN DE UNA TIENDA ONLINE EN WORDPRESS</h1>
+                    </div>
+        
+                    <div class="institucion">
+                        <h2>Domestika</h2>
+                    </div>
+        
+                    <div class="fecha">
+                        Finalizado: 02 de febrero de 2022
+                    </div>
+
+                    <div class="link">
+                        <a href="https://www.domestika.org/es/certificates/9f35bd9c27ec8ee4937c95a6686bf95b" target="_blank" title="ir a Domestika">Ver certificado</a>
+                    </div>
+        
+                </div>
+    
+        
+            </div>
+        
+        </div>
+
+        
+
+        <!--Proyectos-->
+
+        <div class="container" id="proyectos">
+            <div class="header">
+                <h1>Proyectos,</h1>
+                <h2>Evidencias de lo que hago para mejorar cada día </h2>
+            </div>
+        
+            <br>
+
+            <div class="proyecto">
+                <div class="titulo">
+                    <h1>Tienda: The Kestore</h1>
+                </div>
+
+                <div class="cuerpo__imagen">
+                    <a href="/Proyectos/thekestore__escritorio.png"><img src="Proyectos/thekestore__escritorio.avif" title="Imagén proyecto The Kestore" alt="Imagén proyecto tienda The Kestore"></a>
+                </div>
+
+                <br>
+
+                <div class="descripcion">
+                    <p>The Kestore es una página web que simula una tienda de accesorios, está adaptada tanto a pantalla de escritorio como de
+                    móvil respetando la codificación movile first, esta página fue una de los primeros proyectos al empezar en este mundo
+                    del desarrollo web Front-End, para ver la demo de la página completa puedes hacer click <a href="https://kestore.netlify.app/" target="_blank" title="Ir a Demo The Kestore" class="link">aquí</a>.</p>
+                </div>
+            </div>
+
+
+
+            <div class="proyecto">
+                <div class="titulo">
+                    <h1>Tienda: Donde Lulú</h1>
+                </div>
+            
+                <div class="cuerpo__imagen">
+                    <a href="/Proyectos/Donde__lulu__escritorio.png"><img src="Proyectos/Donde__lulu__escritorio.avif"
+                            title="Imagén proyecto The Kestore" alt="Imagén proyecto tienda The Kestore"></a>
+                </div>
+            
+                <br>
+            
+                <div class="descripcion">
+                    <p>Donde Lulú es una página web que simula una tienda de accesorios y estética canina, está adaptada tanto a pantalla de escritorio como
+                        de
+                        móvil respetando la codificación movile first, esta página fue una de los primeros proyectos al empezar en este
+                        mundo
+                        del desarrollo web Front-End, para ver la demo de la página completa puedes hacer click <a href="https://dondelulu.netlify.app/" target="_blank"
+                         title="Ir a Demo Donde Lulú" class="link">aquí</a>.</p>
+                </div>
+            </div>
+            
+            <br>
+
+        
+        </div>
+        
+
+        <!--Contacto Form-->
+        <div class="container">
+            <div class="contacto__panel">
+
+                <div class="contenido">
+                    <h1>
+                        Contacto
+                    </h1>
+                    
+                    <h2>
+                        Si te intereso mi portafolio y quieres ponerte en contacto llena el siguiente formulario, pronto estaremos hablando
+                    </h2>
+                </div>
+
+                <div class="formulario">
+                    <form name="Formulario de contacto" netlify>
+                        <label for="fname">Nombre:</label><br>
+                        <input type="text" id="fname" name="Nombre" required><br>
+
+                        <label for="lname">Empresa:</label><br>
+                        <input type="text" id="lname" name="Empresa" required>
+
+                        <label for="lname">Correo Electrónico:</label><br>
+                        <input type="email" id="lname" name="Email" required>
+
+                        <label for="lname">Número:</label><br>
+                        <input type="number" id="lname" name="Numero" required>
+
+                        <label for="lname">Mensaje:</label><br>
+                        <textarea name="Mensaje" id="mensaje" cols="10" rows="4" required></textarea>
+
+                        <div class="container__btn">
+                            <input type="submit" value="Enviar mis datos">
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+        <!--Footer-->
+
+        <footer>
+            <div class="footer">
+                <h1>Página desarrollada por Kevin Santiago</h1><h1><i class="fa-regular fa-copyright"></i> 2022</h1>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="/js/reveal.js"></script>
+        <script src="/js/backto__top.js"></script>
+        <script src="/js/nav__dropdown.js"></script>
+
+</body>
+</html>

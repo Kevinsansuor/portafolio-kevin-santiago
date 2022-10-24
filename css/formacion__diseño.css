@@ -1,0 +1,98 @@
+.container .estudios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+#formacion{
+    background-image: var(--gardient__bg);
+}
+
+
+.container .estudios .paneles__formacion{
+    width: 32%;
+    height: auto;
+    padding: 2rem 1rem ;
+    border: solid 2px var(--negro);
+    transition: .5s;
+    transform: .5s;
+}
+
+.container .estudios .paneles__formacion:hover{
+    border: solid 2.5px var(--naranja);
+    transform: scale(1.05);
+    transition: all .5s ease-in-out;
+    box-shadow: var(--box__shadow);
+}
+
+.estudios .paneles__formacion .titulo h1{
+    font-family: var(--montserrat__fuente__titulo);
+    font-size: var(--medium__size__text);
+    padding-bottom: .5rem;
+}
+
+.estudios .paneles__formacion .institucion h2{
+    font-family: var(--martel__fuente__subtitulo);
+    font-size: var(--normal__size__text);
+    padding-bottom: .5rem;
+}
+
+.estudios .paneles__formacion .fecha{
+    font-family: var(--opensans__fuente__texto);
+    font-size: var(--normal__size__text);
+}
+
+ .estudios .paneles__formacion .imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 250px;
+    margin-bottom: 1rem;
+    margin-right: auto; margin-left: auto;
+ }
+
+ .estudios .paneles__formacion .imagen img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 250px;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto; margin-bottom: auto;
+    vertical-align: middle;
+    
+}
+
+ .estudios .paneles__formacion .link{
+    margin: 1.5rem 0 0 0;
+    width: 100%;
+    background-color: var(--negro);
+    padding: .5rem 0;
+    color: var(--blanco);
+ }
+
+ .estudios .paneles__formacion .link a{
+    display: block;
+    text-align: center;
+ }
+
+
+@media screen and (max-width: 768px) {
+    .container .estudios{
+        display: block;
+    }
+
+    .container .estudios .paneles__formacion{
+    width: 100%;
+    height: auto;
+    padding: 2rem 1rem ;
+    border: solid 1px var(--negro);
+    box-shadow: none;
+    margin-left: auto; margin-right: auto;
+    margin-bottom: 2rem;
+}
+}
