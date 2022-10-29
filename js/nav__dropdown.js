@@ -43,9 +43,3 @@ document.querySelector('#item__5').onclick =()=>{
     Lineas__Menu__2.classList.remove('active');
     Lineas__Menu__3.classList.remove('active');
 }
-document.querySelector('#item__6').onclick =()=>{
-    Menu__dropdown.classList.remove('active');
-    Lineas__Menu__1.classList.remove('active');
-    Lineas__Menu__2.classList.remove('active');
-    Lineas__Menu__3.classList.remove('active');
-}
