@@ -35,19 +35,20 @@
 }
 
 .landing__page .imagen{
-    filter: drop-shadow(1px 2px 5px var(--negro));
+    filter: drop-shadow(0px 0px 15px hsla(210, 11%, 15%, 0.301));
     margin-top: auto;
     margin-bottom: auto;
+    height: auto;
 }
 
 .landing__page .imagen img{
   display: flex;
   justify-content: flex-end;
-    width: 1000px; height: auto;
-    object-fit: contain;
+    width: 500px; height: auto;
+    object-fit: cover;
     border-radius: 50%;
+    height: auto;
 }
-
 
 
 .landing__page .presentacion .p__1{
@@ -109,7 +110,7 @@
     display: none;
   }
 
-  .landing__page .bajame__esta__xd__movil{
+  /* .landing__page .bajame__esta__xd__movil{
   display: block;
   animation: slide-top 1.5s ease-in-out infinite both;
   transition: all .5s ease-in-out;
@@ -118,14 +119,14 @@
   border-radius: 25px;
   font-size: 2rem;
   position: absolute;
-  right: 0; bottom: 10%;
+  right: 0; bottom: 80%;
 }
 
 .landing__page .bajame__esta__xd__movil i{
   justify-content: center;
   text-align: center;
   vertical-align: middle;
-}
+} */
 
   .landing__page{
     display: flex;
@@ -143,12 +144,13 @@
     margin-left: auto; margin-right: auto;
     border-radius: 0;
     height: 45%;
-    margin-bottom: 2rem;
   }
 
 
   .landing__page .imagen img{
     border-radius: 100%;
+    width: 350px;
+    margin: auto;
   }
 
   .landing__page .presentacion .p__1{
@@ -193,6 +195,45 @@
 
 }
 
+@media screen and (max-width: 560px) {
+
+  .landing__page{
+    top: 80px;
+  }
+
+  .landing__page .imagen{
+    order: -1;
+    width: 100%;
+    margin-left: auto; margin-right: auto;
+    height: 50%;
+    object-fit: contain;
+  }
+
+
+  .landing__page .imagen img{
+    border-radius: 100%;
+    width: 200px;
+    height: 100%;
+    margin: auto;
+    object-fit: contain;
+  }
+}
+
+
+@media screen and (max-width:360px) {
+  .landing__page{
+    margin-bottom: 5rem;
+  }
+
+  .landing__page .presentacion .p__2{
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .landing__page .socials i{
+    display: none;
+  }
+}
 
 
 
